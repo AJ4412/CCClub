@@ -216,7 +216,7 @@ body {
   font-family: "Titillium Web", sans-serif;
   background: #101535;
   color: #fff;
-  background-image: url('../media/background_old.jpeg');
+  background-image: url(../media/background_old.png);
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
