@@ -214,9 +214,8 @@ html {
 
 body {
   font-family: "Titillium Web", sans-serif;
-  background: #101535;
+  background: #29145b;
   color: #fff;
-  background-image: url('/asset/background.jpeg');
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -1128,11 +1127,11 @@ body::-webkit-scrollbar-thumb {
   .right
   .number-container
   h3 {
-  font-size: 75px;
+  font-size: 60px;
   font-family: Titillium Web, Caveat, cursive;
   letter-spacing: 3px;
-  color: #111;
-  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
   margin: 0 0 35px;
   -webkit-text-stroke: 0.5px #fff;
 }
