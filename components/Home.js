@@ -65,13 +65,13 @@ const Home = () => {
               </button>
             </div>
 
-            <ul className="navbar-brand" style={{ marginBottom: "20px" }}>
+            <ul className="navbar-brand" style={{ marginBottom: "34px" }}>
               <img
                 assName="logo inner"
-                src="/asset/CCC_Logo.png"
-                t="Crypto Chameleons Club"
+                src="/Logo.png"
+                alt="Crypto Chameleons Club"
                 style={{
-                  width: "40px",
+                  width: "280px",
                 }}
               />
             </ul>
@@ -81,6 +81,7 @@ const Home = () => {
                   ? "collapse navbar-collapse navbar-right in"
                   : "collapse navbar-collapse navbar-right"
               }
+              style = {{marginTop: "15px"}}
               id="bs-example-navbar-collapse-1"
             >
               <ul className="nav navbar-nav navbar-left">
@@ -151,7 +152,7 @@ const Home = () => {
           <div className="row">
             <div className="col-sm-6 left text-center">
               <div className="inner-container">
-                <h2>WELCOME TO Crypto Chameleons Club</h2>
+                <h2 className="title">WELCOME TO Crypto Chameleons Club</h2>
                 <p>
                   Our 7000 Crypto Chameleons Club NFTs are your ticket to a
                   community and project that is focused on growing the wealth of
