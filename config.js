@@ -1,7 +1,7 @@
 
 export const speedy_nodes = "https://goerli.infura.io/v3/d01236a41eae4ad2b2f9e93333d751d3";
 //export const speedy_nodes = "https://speedy-nodes-nyc.moralis.io/dff6dd8349a9775a9f5214ec/eth/mainnet";
-export const contract_address = "0x636A0a7Ca032229316636597963FA88A1c0DD614";
+export const contract_address = "0x30d53BE784b86a1F2a0B8992A283bAC6134E51aa";
 export const contract_abi = [
 	{
 		"inputs": [

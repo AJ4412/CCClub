@@ -98,7 +98,7 @@ const Mint = () => {
       "insufficient funds",
       "Sale is Paused.",
       "mint at least one token",
-      "max per transaction 20",
+      "max per transaction 2",
       "Not enough tokens left",
       "incorrect ether amount",
       "2 tokens per wallet allowed in pre sale",
