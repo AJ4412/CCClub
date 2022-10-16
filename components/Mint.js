@@ -42,8 +42,8 @@ const Mint = () => {
 
       web3.eth.net.getId().then((result) => {
         console.log("Network id: " + result);
-        if (result !== 4) {
-          swal("Wrong Network Selected. Select Rinkeby Testnet");
+        if (result !== 5) {
+          swal("Wrong Network Selected. Select Georli Testnet");
         }
       });
       set_walletstatus("Wallet Connected");
@@ -75,9 +75,9 @@ const Mint = () => {
     contract.methods.Presale_status().call((err, result) => {
       console.log("error: " + err);
       if (result === true) {
-        set_price(0.075);
+        set_price(0.0005);
       } else {
-        set_price(0.085);
+        set_price(0.0007);
       }
     });
   }
@@ -147,7 +147,7 @@ const Mint = () => {
       // console.log("Default address: "+await web3.eth.defaultAccount)
 
       let res = await fetch(
-        "https://6lr8onsqi3.execute-api.us-west-2.amazonaws.com/proof/" +
+        "https://5p0p11988e.execute-api.us-east-1.amazonaws.com/proof/" +
           address
       );
 
