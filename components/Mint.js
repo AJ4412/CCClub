@@ -9,7 +9,6 @@ const Mint = () => {
 
   useEffect(() => {
     fetch_data();
-    // connect_wallet();
   }, []);
   const [connected, setConnected] = useState(false);
   const [mintNumber, setMintNumber] = useState(1);
