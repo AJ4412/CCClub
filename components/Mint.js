@@ -41,8 +41,8 @@ const Mint = () => {
 
       web3.eth.net.getId().then((result) => {
         console.log("Network id: " + result);
-        if (result !== 5) {
-          swal("Wrong Network Selected. Select Georli Testnet");
+        if (result !== 1) {
+          swal("Wrong Network Selected. Select Ethereum Mainnet");
         }
       });
       set_walletstatus("Wallet Connected");
@@ -74,9 +74,9 @@ const Mint = () => {
     contract.methods.Presale_status().call((err, result) => {
       console.log("error: " + err);
       if (result === true) {
-        set_price(0.0005);
+        set_price(0.075);
       } else {
-        set_price(0.0007);
+        set_price(0.085);
       }
     });
   }
