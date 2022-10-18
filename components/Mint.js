@@ -210,8 +210,7 @@ const Mint = () => {
       } catch (error) {
         show_error_alert(error);
       }
-
-      // await contract.methods.tokenByIndex(i).call();
+//aj
     }
   }
 
