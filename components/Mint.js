@@ -245,7 +245,7 @@ const Mint = () => {
         </div> */}
 
         <div className="right">
-          <h1 className="inner-container">Minting Soon</h1>
+          <h1 className="inner-container">Minting Now</h1>
           <div className="number-container">
             <h3 style={{color: "white"}}>{totalsupply}/7000</h3>
             {/* <h3>{totalsupply}/7000</h3> */}
