@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Web3 from "web3";
 import Web3Modal from "web3modal";
+import Head from "next/head";
 import swal from "sweetalert";
 import { contract_address, contract_abi, speedy_nodes } from "../config.js";
 
@@ -225,6 +226,13 @@ const Mint = () => {
   // useEffect(() => {}, []);
 
   return (
+<>
+    <Head>
+      <link rel="icon" href="/asset/CCC_Logo.png" />
+      <title>CryptoChameleonsClub</title>
+      <meta name='description' content='Our 7000 Crypto Chameleons Club NFTs are your ticket to a community and project that is focused on growing the wealth of CCC holders through large Ethereum giveaways and a NFT Fund that is run by the holders!' />
+    </Head>
+
     <div className="col-sm-12 text-center">
       {/* <img
         className="paint-splash"
@@ -288,6 +296,7 @@ const Mint = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Mint;
